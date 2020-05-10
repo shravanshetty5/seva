@@ -25,6 +25,9 @@
     "all-serve-e2e": {
       "tags": [],
       "implicitDependencies": ["all-serve"]
+    },
+    "ui": {
+      "tags": ["scope:ui", "type: ui"]
     }
   }
 }

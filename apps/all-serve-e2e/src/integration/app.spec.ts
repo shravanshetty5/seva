@@ -1,4 +1,4 @@
-import { getGreeting } from '../support/app.po';
+import { getGreeting, helloComponent } from '../support/app.po';
 
 describe('all-serve', () => {
   beforeEach(() => cy.visit('/'));
@@ -9,5 +9,6 @@ describe('all-serve', () => {
 
     // Function helper example, see `../support/app.po.ts` file
     getGreeting().contains('Welcome to all-serve!');
+    helloComponent().contains('hello works!');
   });
 });

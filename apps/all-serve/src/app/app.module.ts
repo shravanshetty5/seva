@@ -1,11 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
+import { UiModule } from '@seva/ui';
 import { AppComponent } from './app.component';
+
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule],
+  imports: [BrowserModule, UiModule],
   providers: [],
   bootstrap: [AppComponent]
 })
