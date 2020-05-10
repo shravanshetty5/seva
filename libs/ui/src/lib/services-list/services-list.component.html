@@ -1,0 +1,6 @@
+<ul>
+  <li *ngFor="let service of services$ | async" class="todo">
+    <div (click)="selectService(service)">
+      {{ service.title }}
+    </div>
+</ul>

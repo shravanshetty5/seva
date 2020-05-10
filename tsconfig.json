@@ -16,7 +16,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@seva/ui": ["libs/ui/src/index.ts"]
+      "@seva/ui": ["libs/ui/src/index.ts"],
+      "@seva/data-access": ["libs/data-access/src/index.ts"],
+      "@seva/types": ["libs/types/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

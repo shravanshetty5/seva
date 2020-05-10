@@ -28,6 +28,12 @@
     },
     "ui": {
       "tags": ["scope:ui", "type: ui"]
+    },
+    "data-access": {
+      "tags": []
+    },
+    "types": {
+      "tags": []
     }
   }
 }
