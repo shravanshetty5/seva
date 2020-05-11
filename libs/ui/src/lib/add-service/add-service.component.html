@@ -1,0 +1,5 @@
+
+<form [formGroup]="addServiceForm"  (ngSubmit)="onSubmit(addServiceForm.value)">
+  <input id="serviceName" type="text" formControlName="serviceName" >
+  <button class="button" type="submit">Add Service</button>
+</form>

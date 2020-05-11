@@ -14,4 +14,8 @@ export class ServicesService {
   getServiceList() {
     return this.http.get<IService[]>('/api/services');
   }
+
+  addService(service: IService) {
+    return this.http.post('/api/services', service);
+  }
 }
